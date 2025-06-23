@@ -55,7 +55,7 @@ FinSolve faced communication delays, data silos, and lack of unified information
 
 ## 🧱 Project Structure
 
-RAG_chatbot
+``` RAG_chatbot
 ├── app/
 │ ├── init.py ← Package init
 │ ├── api.py ← FastAPI routes
@@ -77,7 +77,7 @@ RAG_chatbot
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ## How to Run
 
@@ -121,9 +121,7 @@ streamlit run frontend/streamlit_app.py
 
 ## Architecture
 
-## 📸 Screenshot
+![RAG_chatbot Architecture](https://github.com/user-attachments/assets/35685c9e-4af9-4292-9938-c40257281983)
 
-![Screenshot](![RAG_chatbot Architecture](https://github.com/user-attachments/assets/35685c9e-4af9-4292-9938-c40257281983)
-)
 
 
