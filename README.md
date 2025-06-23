@@ -2,17 +2,10 @@
 
 A secure, AI-powered chatbot that enables **role-based access** to internal enterprise knowledge. Built using **Retrieval-Augmented Generation (RAG)** principles and enforcing strict **Role-Based Access Control (RBAC)**, this chatbot ensures that every department accesses only the data it is allowed to — with full auditability and transparency.
 
-> 🧠 Designed by Peter Pandey as part of FinSolve's digital transformation initiative led by CIO Tony Sharma.
-
 ---
 
-## 💼 Competition Background
-
-**🏢 Organization:** FinSolve Technologies  
-**📍 Domain:** FinTech  
-**🎯 Function:** AI Engineering  
-
-FinSolve faced communication delays, data silos, and lack of unified information access across departments. This chatbot was proposed as a **secure digital assistant** to provide fast, role-filtered answers and bridge interdepartmental data gaps using AI.
+# 🧩 Problem Statement
+FinSolve Technologies faces delays and inefficiencies due to data silos across departments like Finance, HR, and Marketing. Teams struggle to access the right information securely and quickly. To solve this, a role-aware AI chatbot is needed that can authenticate users, retrieve department-specific data, and generate accurate, context-rich responses using RAG and RBAC.
 
 ---
 
