@@ -80,8 +80,8 @@ FinSolve Technologies faces delays and inefficiencies due to data silos across d
 
 ```pip install -r requirements.txt```
 
-### 2.  Add Markdown Data
-
+### 2.  Add Data
+```
 data/
 ├── finance/
 │   └── report_q1.md
@@ -89,7 +89,7 @@ data/
 │   └── campaign_2024.md
 ├── general/
 │   └── leave_policy.md
-...
+```
 
 ### 3. Run Document Ingestion
 
