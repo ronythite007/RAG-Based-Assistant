@@ -4,7 +4,7 @@ A secure, AI-powered chatbot that enables **role-based access** to internal ente
 
 > 🧠 Designed by Peter Pandey as part of FinSolve's digital transformation initiative led by CIO Tony Sharma.
 
----
+--
 
 ## 💼 Competition Background
 
@@ -14,7 +14,7 @@ A secure, AI-powered chatbot that enables **role-based access** to internal ente
 
 FinSolve faced communication delays, data silos, and lack of unified information access across departments. This chatbot was proposed as a **secure digital assistant** to provide fast, role-filtered answers and bridge interdepartmental data gaps using AI.
 
----
+--
 
 ## 🛠️ Tech Stack
 
@@ -27,7 +27,7 @@ FinSolve faced communication delays, data silos, and lack of unified information
 | ✍️ Embedding| SentenceTransformers (`all-MiniLM-L6-v2`)|
 | 🔐 Auth     | Custom RBAC logic using `roles.py` & `auth.py`|
 
----
+--
 
 ## 🧠 Features
 
@@ -38,7 +38,7 @@ FinSolve faced communication delays, data silos, and lack of unified information
 - ✅ **Natural Answers with Groq's LLaMA3**
 - ✅ **Source Citation for Every Answer**
 
----
+--
 
 ## 🔐 Role Permissions
 
@@ -51,7 +51,7 @@ FinSolve faced communication delays, data silos, and lack of unified information
 | `executive`   | 🔓 Full access to all company data                                       | 
 | `employee`    | General company documents (FAQs, events, policies)                       |
 
----
+--
 
 ## 🧱 Project Structure
 
@@ -78,6 +78,8 @@ FinSolve faced communication delays, data silos, and lack of unified information
 ├── requirements.txt
 └── README.md
 ```
+
+--
 
 ## How to Run
 
@@ -108,6 +110,8 @@ streamlit run frontend/streamlit_app.py
 
 streamlit run frontend/streamlit_app.py
 
+--
+
 ## Sample Test Users
 
 {
@@ -119,9 +123,34 @@ streamlit run frontend/streamlit_app.py
   "employee_user":  {"password": "employee_pass", "role": "employee"}
 }
 
+--
+
 ## Architecture
 
 ![RAG_chatbot Architecture](https://github.com/user-attachments/assets/35685c9e-4af9-4292-9938-c40257281983)
+
+--
+
+## 🎓 Developed For
+
+🏁 Competition: Gen AI & Data Science Challenge
+🏢 Company: FinSolve Technologies
+👤 Role: Peter Pandey, AI Engineer
+🧠 Goal: Build a secure RAG-based chatbot for department-specific answers
+
+--
+
+## Why This Solution?
+
+✅ Ensures secure data access via role-based filtering
+✅ Uses state-of-the-art LLMs for natural language interaction
+✅ Stores and searches enterprise data using vector embeddings
+✅ Built with modular architecture, easy to extend
+
+--
+
+## Author
+Rohan Rajendra Thite
 
 
 
