@@ -133,20 +133,20 @@ streamlit run frontend/streamlit_app.py
 
 ## 🎓 Developed For
 
-🏁 Competition: Gen AI & Data Science Challenge
+```🏁 Competition: Gen AI & Data Science Challenge
 🏢 Company: FinSolve Technologies
 👤 Role: Peter Pandey, AI Engineer
 🧠 Goal: Build a secure RAG-based chatbot for department-specific answers
-
+```
 ---
 
 ## Why This Solution?
-
+```
 ✅ Ensures secure data access via role-based filtering
 ✅ Uses state-of-the-art LLMs for natural language interaction
 ✅ Stores and searches enterprise data using vector embeddings
 ✅ Built with modular architecture, easy to extend
-
+```
 ---
 
 ## Author
